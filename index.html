@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PokeApp</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="code.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>PokeApp</h1>
+  </header> 
+  <section class="search">
+    <form>
+      <label for="pokemon">Search:</label>
+      <!-- <input type="text" id="search" placeholder="Enter Pokemon" required> -->
+      <input list="pokemons" name="pokemon" id="pokemon" required>
+      <button><img src="search.svg" alt="search"></button>
+
+    </form>
+  </section>
+  <div class="results">
+    <small>Results will be displayed here if any</small>
+  </div>
+  <span class="info hidden">i</span>
+  <span class="home hidden"><img src="home.svg" alt="home"></span>
+  <footer><small><a href="https://github.com/stribis">github</a>  || Used using <a href="https://pokeapi.co/"> pokeapi.co</a></small></footer>
+</body>
+</html>
